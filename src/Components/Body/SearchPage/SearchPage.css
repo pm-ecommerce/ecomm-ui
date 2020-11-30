@@ -1,0 +1,8 @@
+.product-list-container{
+    margin-bottom: 100px;
+}
+
+.pagination-container{
+    display: grid;
+    justify-content: center;
+}

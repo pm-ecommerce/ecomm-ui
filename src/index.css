@@ -1,0 +1,16 @@
+
+.MuiTypography-h6 {
+    font-size: 24px !important;
+}
+
+#alert-dialog-description {
+    font-size: 16px !important;
+}
+
+.MuiButton-root {
+    font-size: 16px !important;
+}
+
+.MuiAlert-message {
+    font-size: 16px;
+}

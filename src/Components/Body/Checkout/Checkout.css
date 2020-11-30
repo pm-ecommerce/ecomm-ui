@@ -1,0 +1,47 @@
+.checkout-page-container{
+    width: 90%;
+    margin: auto;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    margin-top: 100px;
+}
+
+.checkout-box{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-color: #ddd;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.changeAddress{
+    color:blue;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.changeAddress:hover{
+    color: #ff3c20;
+}

@@ -1,0 +1,45 @@
+.main-menu{
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center; */
+    padding-left: 15px;
+}
+
+.main-menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: relative;
+}
+
+.main-menu ul li{
+    float: left;    
+}
+
+.menu-button{
+    margin-right: 30px;
+    line-height: 100%;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.5s;
+}
+
+.menu-button:hover{
+    color: #ff3c20;
+}
+
+.caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}

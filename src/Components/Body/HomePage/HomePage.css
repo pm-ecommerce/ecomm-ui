@@ -1,0 +1,121 @@
+@media (max-width: 1649px) and (min-width: 1366px) {
+    #main-page-container {
+        padding-top: 30px;
+        width: 1375px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 240px auto;
+    }
+}
+
+@media (max-width: 1365px) and (min-width: 1200px) {
+    #main-page-container {
+        padding-top: 30px;
+        width: 1075px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 240px auto;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #main-page-container {
+        padding-top: 30px;
+        width: 975px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 240px auto;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #main-page-container {
+        padding-top: 30px;
+        width: 905px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 240px auto;
+    }
+}
+
+.category-menu {
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.category-menu .category-name {
+    cursor: pointer;
+    padding: 15px 15px 10px 15px;
+}
+
+.category-menu .category-name::after {
+    color: #ccc;
+    font-family: 'FontAwesome';
+    display: inline-block;
+    content: "\f105";
+    font-size: 16px;
+    position: relative;
+    float: right;
+    top: 8px;
+}
+
+.cn-container {
+    color: #666;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 14px 0 15px 35px;
+    line-height: 100%;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.category-name-img {
+    position: relative;
+    margin-right: 10px;
+    top: 4px;
+}
+
+.category-name span {
+    position: relative;
+    bottom: 3px;
+}
+
+.modtitle {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.modtitle span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    float: left;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    background-color: #232f3e;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 11px 20px;
+    position: relative;
+    bottom: -2px;
+}
+
+.product-list-container {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.main-left .col1 {
+    min-height: 252px;
+}
